@@ -85,7 +85,11 @@ function Home() {
       </Canvas>
 
       <section className='flex justify-center items-center place-items-center w-full h-auto p-4 relative bg-black-500 text-white'>
-          Desarrollado por Marco Antonio Centeno Contla
+          <a 
+          className=' decoration-transparent'
+          href="https://github.com/OVERWRITTE/Portfolio-3D">
+            Marco Antonio Centeno Contla
+          </a>
       </section>
     </section>
   )
