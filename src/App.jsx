@@ -4,8 +4,9 @@ import { Home, About, Projects, Contact } from "./pages"
 
 const App = () => {
   return (
-    <main className="bg-slate-300/20">
-      <Router>
+    <main className="bg-black-500">
+      <section className=" bg-black-600">
+        <Router >
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -14,6 +15,8 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </Router>
+      </section>
+      
     </main>
   )
 }

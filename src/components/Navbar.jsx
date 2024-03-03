@@ -8,7 +8,7 @@ function Navbar() {
             </NavLink>
             <nav className="flex text-lg gap-7 font-medium" >
                 <NavLink to="/about" className={({ isActive }) => isActive ? "text-blue-500 font-bold drop-shadow-lg" : " text-white font-bold drop-shadow-lg"}>
-                    Sobre mi
+                    Contacto
                 </NavLink>
                 <NavLink to="/projects" className={({ isActive }) => isActive ? "text-blue-500 font-bold drop-shadow-lg" : "text-white font-bold drop-shadow-lg"}>
                     Projectos
